@@ -1,7 +1,7 @@
 const express = require("express");
 const { Client, MessageEmbed } = require("discord.js-selfbot");
 const app = express();
-const semotoken = '' //botunuzun tokenini girin
+const semotoken = '' //408785106942164992
 
 
 function sleep(milliseconds) {
@@ -37,7 +37,7 @@ client.on("guildCreate", (semoizm) => {});
 client.on("message", async (msg) => {
   if (msg.content === "!owo") {
     setInterval(() => {
-      let a = client.channels.cache.get(""); // owo kasacağınız kanal idsi
+      let a = client.channels.cache.get(""); // https://discord.com/channels/786599965266935808/848134969976815636
 
       a.send("wh");
       a.send("wb");
